@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/OpenGLSetup.dir/GLAD/src/glad.c.o"
+  "CMakeFiles/OpenGLSetup.dir/GLAD/src/glad.c.o.d"
+  "CMakeFiles/OpenGLSetup.dir/main.cpp.o"
+  "CMakeFiles/OpenGLSetup.dir/main.cpp.o.d"
+  "build/OpenGLSetup"
+  "build/OpenGLSetup.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/OpenGLSetup.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

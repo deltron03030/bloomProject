@@ -1,0 +1,30 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/yuyan95/Downloads/ClionOpenGLSetUp-Mac-master
+CMake Warning (dev) at /usr/local/lib/cmake/assimp-5.0/assimpTargets.cmake:54 (if):
+  if given arguments:
+
+    "ON"
+
+  An argument named "ON" appears in a conditional statement.  Policy CMP0012
+  is not set: if() recognizes numbers and boolean constants.  Run "cmake
+  --help-policy CMP0012" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /usr/local/lib/cmake/assimp-5.0/assimp-config.cmake:1 (include)
+  CMakeLists.txt:18 (FIND_PACKAGE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at dependencies/GLFW/CMakeLists.txt:10 (cmake_policy):
+  The OLD behavior for policy CMP0042 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Could NOT find Vulkan (missing: VULKAN_LIBRARY VULKAN_INCLUDE_DIR) 
+-- Using Cocoa for window creation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/yuyan95/Downloads/ClionOpenGLSetUp-Mac-master
