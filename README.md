@@ -1,6 +1,4 @@
- # Simple OpenGL Setup with Clion Cmake
+ # Bloom Implementation in OpenGL 
  
- ### GLAD, GLFW, GLM, stb_image
- 
- #### Source code from [LearnOpengGL](https://learnopengl.com/) tutorial
+ #### See project report for details
  
